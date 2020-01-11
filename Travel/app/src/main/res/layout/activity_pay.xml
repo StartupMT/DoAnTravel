@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Pay">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="354dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#236359"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Choose payment method" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_below="@+id/textView1"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:srcCompat="@drawable/visa" />-->
+
+    <ImageButton
+        android:id="@+id/imageButtonVisa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/visa" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_toEndOf="@+id/imageButtonVisa"
+        android:text="Payment by Visa" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageButtonVisa"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/paypal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Payment by PayPal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/banking" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:gravity="center_vertical"
+        android:text="Payment by Internet Banking"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonConfirm"-->
+<!--        android:layout_width="354dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="650dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:background="#A53131"-->
+<!--        android:text="Confirm" />-->
+
+
+
+
+</RelativeLayout>

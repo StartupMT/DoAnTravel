@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gnart5</string>
+    <string name="map_api">AIzaSyDl0JvtGcYRij9HO3gIsR-0apuL6dkJLI8</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

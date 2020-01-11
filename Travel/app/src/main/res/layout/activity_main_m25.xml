@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainM25Activity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="360dp"
+                android:layout_height="300dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:background="@drawable/botron"
+                android:textSize="20dp"
+                android:textColor="#CF7F03"
+                android:text="Information Guest" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/textView"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                android:gravity="center_vertical"
+                android:text="Name / ID"
+                android:textColor="#0A0A0A"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:text="     MarthNim Gnart / 3427197890122"
+                android:textColor="#0A0A0A"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/textView2"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="Pay"
+                android:textColor="#0A0A0A"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/buttonLink"
+                android:layout_width="300dp"
+                android:layout_height="64dp"
+                android:layout_below="@+id/textView3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:background="#FFFFFF"
+                android:text="     Choose payment method"
+                android:textColor="#0A0A0A"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textAllCaps="false"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textViewHost"
+                android:layout_width="360dp"
+                android:layout_height="260dp"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron"
+                android:text="Information Host"
+                android:textColor="#CF7F03"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/textViewHost"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                android:gravity="center_vertical"
+                android:text="Name / ID"
+                android:textColor="#0A0A0A"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:text="     Yamino Minamino / 7991432210"
+                android:textColor="#0A0A0A"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/textView5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="Contact"
+                android:textColor="#0A0A0A"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView6"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:text="     Yamano@gmail.com / 0929023497"
+                android:textColor="#0A0A0A"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView8"-->
+<!--                android:layout_width="470dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_below="@+id/textViewHost"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_marginStart="-10dp"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:text="     Transaction are guaranteed by"-->
+<!--                android:textColor="#CF7F03"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="italic" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="260dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_below="@+id/textViewHost"-->
+<!--                android:layout_marginTop="60dp"-->
+<!--                android:layout_marginStart="70dp"-->
+<!--                android:background="@drawable/airbnb" />-->
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="470dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="-10dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#CF7F03"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonPay"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/trontren"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="Pay" />
+
+
+
+
+</RelativeLayout>

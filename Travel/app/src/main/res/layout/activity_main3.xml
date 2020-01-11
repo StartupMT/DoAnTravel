@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Main3Activity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/vien"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchView"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron"
+                android:text="Dates" />
+
+            <Button
+                android:id="@+id/buttonGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchView"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/buttonDate"
+                android:background="@drawable/botron"
+                android:text="Guest" />
+
+            <Button
+                android:id="@+id/buttonFit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchView"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/buttonGuest"
+                android:background="@drawable/botron"
+                android:text="Filters" />
+
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:layout_below="@+id/buttonDate"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="  300+ places to stay" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/image7"/>
+
+
+            <Button
+                android:id="@+id/buttonHome"
+                android:layout_width="360dp"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textAllCaps="false"
+                android:background="#FFFFFF"
+                android:text="   ENTIRE APARTMENT - 1Bed  \n \n  Calm House near Shinjuku  \n  $27/night - 4.9*(134)" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:layout_below="@+id/buttonHome"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/image10" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="360dp"
+                android:layout_height="66dp"
+                android:layout_below="@+id/imageView4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:background="#FFFFFF"
+                android:textColor="#070707"
+                android:text="   ENTIRE APARTMENT - 2Bed  \n \n  Calm House near Tokyo Sky  \n   $34/night - 4.6*(71)" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:layout_below="@+id/textView6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/image11"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="360dp"
+                android:layout_height="66dp"
+                android:layout_below="@+id/imageView5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:background="#FFFFFF"
+                android:text="   ENTIRE APARTMENT - 2Bed - 1Kitchen  \n \n  Calm House near Kaito  \n   $27/night - 4.7*(127)"  />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:layout_below="@+id/textView7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/image1"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="360dp"
+                android:layout_height="66dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:background="#FFFFFF"
+                android:text="   APARTMENT - 1Bed - 1Kitchen  \n \n  Calm House near Kaito  \n   $47/night - 4.7(34)"  />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/textView8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:text=""  />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_below="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="20dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:id="@+id/imageButtonMap"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/map1"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/vien"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:layout_below="@+id/searchView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron"
+                android:text="Dates" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:layout_below="@+id/searchView"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/button3"
+                android:background="@drawable/botron"
+                android:text="Guest" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="358dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/button3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:text="Explore Tokyo"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/image3"/>
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:background="@drawable/image4" />
+
+
+            <Button
+                android:id="@+id/buttonStay"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-1dp"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:background="@drawable/tronduoi"
+                android:text="Stays" />
+
+            <Button
+                android:id="@+id/buttonExperiences"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:textAllCaps="false"
+                android:layout_toEndOf="@+id/buttonStay"
+                android:background="@drawable/tronduoi"
+                android:text="Experiences" />
+
+            <TextView
+                android:id="@+id/textViewTopRate"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/buttonExperiences"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="Top-rated experiences" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/textViewTopRate"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:text="Book activities led by local hosts on your next trip"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView7"
+                android:background="@drawable/anh5"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text="UNITED STATES"
+                android:textStyle="bold"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView17"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Clamp on a cliff in mountain "
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewStar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewStar"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView19"
+                android:layout_toEndOf="@+id/imageViewStar"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewStar"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="$75 per person "
+                android:textSize="15dp" />
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textView7"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:background="@drawable/anh6" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text=" CANADA"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView18"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Go glamping, hiking and river floating"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewStar1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView20"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewStar1"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView20"
+                android:layout_toEndOf="@+id/imageViewStar1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewStar1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textView22"
+                android:text="$42 per person "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/textView22"
+                android:background="@drawable/image10"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageView5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text="ITALY"
+                android:textStyle="bold"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView24"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Explore the Vesuvius riding a horse"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewStar2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView25"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewStar2"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView25"
+                android:layout_toEndOf="@+id/imageViewStar2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewStar2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="$69 per person "
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textView23"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:background="@drawable/image11" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageView6"
+                android:layout_toEndOf="@+id/imageView5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text="ARGENTINA"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView27"
+                android:layout_toEndOf="@+id/imageView5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Coffee in Buenos Aires\nSpecialty coffee tour"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewStar3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView28"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewStar3"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textView28"
+                android:layout_toEndOf="@+id/imageViewStar3"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewStar3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textView22"
+                android:text="$18 per person "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/buttonAdventure"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView26"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textColor="#1D5F54"
+                android:background="@drawable/vien"
+                android:text="Show all adventures" />
+
+
+            <TextView
+                android:id="@+id/textViewStay"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/buttonAdventure"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="Where to stay" />
+
+            <TextView
+                android:id="@+id/textViewS7"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/textViewStay"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:text="Make yourself at home with these experienced hosts"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageViewS3"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textViewS7"
+                android:background="@drawable/anh5"/>
+
+            <TextView
+                android:id="@+id/textViewS17"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageViewS3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text="TOKYO"
+                android:textStyle="bold"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textViewS19"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewS17"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Clamp on a cliff in mountain "
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSStar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS19"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewSStar"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS19"
+                android:layout_toEndOf="@+id/imageViewSStar"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textViewS22"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewSStar"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="$75 per person "
+                android:textSize="15dp" />
+
+
+
+
+            <ImageView
+                android:id="@+id/imageViewS4"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textViewS7"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/imageViewS3"
+                android:background="@drawable/anh6" />
+
+            <TextView
+                android:id="@+id/textViewS18"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageViewS4"
+                android:layout_toEndOf="@+id/imageViewS3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text=" CANADA"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textViewS20"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewS18"
+                android:layout_toEndOf="@+id/imageViewS3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Go glamping, hiking and river floating"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSStar1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS20"
+                android:layout_toEndOf="@+id/imageViewS3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewSStar1"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS20"
+                android:layout_toEndOf="@+id/imageViewSStar1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textViewS23"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewSStar1"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textViewS22"
+                android:text="$42 per person "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:id="@+id/imageViewS5"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/textViewS22"
+                android:background="@drawable/image10"/>
+
+            <TextView
+                android:id="@+id/textViewS24"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageViewS5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text="ITALY"
+                android:textStyle="bold"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textViewS25"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewS24"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Explore the Vesuvius riding a horse"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSStar2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS25"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewSStar2"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS25"
+                android:layout_toEndOf="@+id/imageViewSStar2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textViewS26"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewSStar2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="$69 per person "
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewS6"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textViewS23"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/imageViewS3"
+                android:background="@drawable/image11" />
+
+            <TextView
+                android:id="@+id/textViewS27"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/imageViewS6"
+                android:layout_toEndOf="@+id/imageViewS5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:textColor="#804E02"
+                android:text="ARGENTINA"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textViewS28"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewS27"
+                android:layout_toEndOf="@+id/imageViewS5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Coffee in Buenos Aires\nSpecialty coffee tour"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageViewSStar3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS28"
+                android:layout_toEndOf="@+id/imageViewS3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/star" />
+
+            <TextView
+                android:id="@+id/textViewSStar3"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/textViewS28"
+                android:layout_toEndOf="@+id/imageViewSStar3"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:text="4.94 (2008)"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textViewS29"
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageViewSStar3"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textViewS22"
+                android:text="$18 per person "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/buttonShowstay"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewS26"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textColor="#1D5F54"
+                android:background="@drawable/vien"
+                android:text="Show 300+ stay" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

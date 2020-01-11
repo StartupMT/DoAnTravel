@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Guest">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="470dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Guests" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="  Adults" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="470dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tron"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="   Children \n  (Age 2-12)" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="  Infants \n  (Under 2)" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonResult"
+        android:layout_width="354dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/botron"
+        android:text="Results" />
+
+
+</RelativeLayout>
